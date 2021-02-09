@@ -1,0 +1,470 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProjectCard  /> should match snapshot 1`] = `
+.c3 {
+  margin: 0px 4px;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c5 {
+  border-radius: 4px;
+}
+
+.c7 {
+  border-radius: 8px;
+  padding: 12px;
+  background: #fafafa;
+  max-width: 200px;
+  resize: none;
+}
+
+.c4 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.c1 {
+  width: 300px;
+  border-radius: 8px;
+  cursor: initial;
+}
+
+.c0 {
+  margin: 8px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="ant-card ant-card-bordered ant-card-hoverable c1"
+  >
+    <div
+      class="ant-card-body"
+    >
+      <div
+        class="ant-card-meta"
+      >
+        <div
+          class="ant-card-meta-avatar"
+        >
+          <span
+            class="ant-avatar ant-avatar-circle ant-avatar-icon"
+          >
+            <span
+              aria-label="shopping"
+              class="anticon anticon-shopping"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="shopping"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M832 312H696v-16c0-101.6-82.4-184-184-184s-184 82.4-184 184v16H192c-17.7 0-32 14.3-32 32v536c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V344c0-17.7-14.3-32-32-32zm-432-16c0-61.9 50.1-112 112-112s112 50.1 112 112v16H400v-16zm392 544H232V384h96v88c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-88h224v88c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-88h96v456z"
+                />
+              </svg>
+            </span>
+          </span>
+        </div>
+        <div
+          class="ant-card-meta-detail"
+        >
+          <div
+            class="ant-card-meta-title"
+          >
+            <span
+              class="c2"
+            >
+              CarRepair
+               project for
+              <a
+                class="c3"
+                href="/specialist/60103a48a862fc4fe182c17f"
+              >
+                Martin
+              </a>
+               
+              requested by 
+              Sar
+            </span>
+          </div>
+          <div
+            class="ant-card-meta-description"
+          >
+            <div
+              class="ant-space ant-space-vertical"
+            >
+              <div
+                class="ant-space-item"
+              >
+                <span
+                  class="c4"
+                >
+                  € 
+                  44
+                   / hour
+                </span>
+              </div>
+            </div>
+            <div
+              class=""
+            >
+              I am very good cleaner
+            </div>
+            <div
+              class=""
+            >
+              Hours: 
+              06:00, 07:00
+            </div>
+            <div
+              class="ant-divider ant-divider-horizontal"
+              role="separator"
+            />
+            Status:
+             
+            <span
+              class="ant-tag ant-tag-blue c5"
+            >
+              CompletePending
+            </span>
+            <div
+              class="c6"
+            >
+              <ul
+                class="ant-rate ant-rate-disabled"
+                role="radiogroup"
+                tabindex="-1"
+              >
+                <li
+                  class="ant-rate-star ant-rate-star-full"
+                >
+                  <div
+                    aria-checked="true"
+                    aria-posinset="1"
+                    aria-setsize="5"
+                    role="radio"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ant-rate-star-first"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      class="ant-rate-star-second"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="ant-rate-star ant-rate-star-full"
+                >
+                  <div
+                    aria-checked="true"
+                    aria-posinset="2"
+                    aria-setsize="5"
+                    role="radio"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ant-rate-star-first"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      class="ant-rate-star-second"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="ant-rate-star ant-rate-star-half ant-rate-star-active"
+                >
+                  <div
+                    aria-checked="true"
+                    aria-posinset="3"
+                    aria-setsize="5"
+                    role="radio"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ant-rate-star-first"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      class="ant-rate-star-second"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="ant-rate-star ant-rate-star-zero"
+                >
+                  <div
+                    aria-checked="false"
+                    aria-posinset="4"
+                    aria-setsize="5"
+                    role="radio"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ant-rate-star-first"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      class="ant-rate-star-second"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li
+                  class="ant-rate-star ant-rate-star-zero"
+                >
+                  <div
+                    aria-checked="false"
+                    aria-posinset="5"
+                    aria-setsize="5"
+                    role="radio"
+                    tabindex="-1"
+                  >
+                    <div
+                      class="ant-rate-star-first"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                    <div
+                      class="ant-rate-star-second"
+                    >
+                      <span
+                        aria-label="star"
+                        class="anticon anticon-star"
+                        role="img"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          data-icon="star"
+                          fill="currentColor"
+                          focusable="false"
+                          height="1em"
+                          viewBox="64 64 896 896"
+                          width="1em"
+                        >
+                          <path
+                            d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <textarea
+                class="ant-input c7 ant-input-disabled"
+                disabled=""
+                maxlength="135"
+                placeholder="Not commented yet"
+              >
+                Very good service
+              </textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

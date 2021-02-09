@@ -1,0 +1,28 @@
+import * as React from 'react';
+import { render } from '@testing-library/react';
+import { Store } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux';
+import { configureAppStore } from 'store/configureStore';
+import { LoginPage } from '..';
+import { BrowserRouter } from 'react-router-dom';
+
+const renderComponent = (store: Store) =>
+  render(
+    <Provider store={store}>
+      <BrowserRouter>
+        <LoginPage />
+      </BrowserRouter>
+    </Provider>,
+  );
+
+describe('<LoginPage />', () => {
+  let store: ReturnType<typeof configureAppStore>;
+
+  beforeEach(() => {
+    store = configureAppStore();
+  });
+  it('should match the snapshot', () => {
+    const component = renderComponent(store);
+    expect(component.container.firstChild).toMatchSnapshot();
+  });
+});

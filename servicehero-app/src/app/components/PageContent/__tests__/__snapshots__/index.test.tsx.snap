@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageContent  /> should match snapshot 1`] = `
+.c0 {
+  min-height: calc(100vh - 104px);
+  padding: 30px 60px;
+  position: relative;
+}
+
+<main
+  class="ant-layout-content c0"
+/>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ClientProfile /> should match the snapshot 1`] = `
+<div
+  class=""
+>
+  <div
+    class="ant-divider ant-divider-horizontal ant-divider-with-text ant-divider-with-text-center"
+    role="separator"
+  >
+    <span
+      class="ant-divider-inner-text"
+    >
+      <h3
+        class="ant-typography"
+      >
+        Your projects
+      </h3>
+    </span>
+  </div>
+</div>
+`;

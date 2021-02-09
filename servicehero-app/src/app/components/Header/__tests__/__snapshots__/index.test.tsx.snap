@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header  /> should match snapshot 1`] = `
+.c1 {
+  justify-self: right;
+}
+
+.c0 {
+  display: grid;
+  position: relative;
+  z-index: 10;
+  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: rgba(255,255,255,0.5);
+  font-size: 16px;
+  padding: 0px 60px;
+}
+
+<header
+  class="ant-layout-header c0"
+>
+  <div />
+  <a
+    class="c1"
+    href="/login"
+  >
+    Login
+  </a>
+</header>
+`;

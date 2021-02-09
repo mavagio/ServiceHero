@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo  /> should match snapshot 1`] = `
+.c1 {
+  color: white;
+}
+
+.c2 {
+  font-weight: bold;
+}
+
+.c0 {
+  width: 200px;
+  font-size: 1.4em;
+}
+
+<a
+  class="c0"
+  href="/"
+>
+  <span
+    class="c1"
+  >
+    Service
+  </span>
+  <span
+    class="c2"
+  >
+    Hero
+  </span>
+</a>
+`;

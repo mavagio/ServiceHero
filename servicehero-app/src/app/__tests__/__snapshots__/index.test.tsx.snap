@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<BrowserRouter>
+  <Helmet
+    defaultTitle="ServiceHero"
+    defer={true}
+    encodeSpecialCharacters={true}
+    titleTemplate="%s - ServiceHero"
+  >
+    <meta
+      content="Connecting service providers with clients"
+      name="description"
+    />
+  </Helmet>
+  <Authentication />
+  <ListingManager />
+  <ProjectManager />
+  <ListingEditorModal />
+  <Header />
+  <PageContent>
+    <Switch>
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "compare": null,
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "compare": null,
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/login"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "compare": null,
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/signup"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/specialist/:id"
+      />
+      <Memo
+        path="/profile"
+      >
+        <Memo />
+      </Memo>
+      <Route
+        exact={true}
+        path="/404"
+      >
+        [Function]
+      </Route>
+      <Redirect
+        path="*"
+        to="/404"
+      />
+    </Switch>
+  </PageContent>
+  <Footer />
+  <Memo(GlobalStyleComponent) />
+</BrowserRouter>
+`;

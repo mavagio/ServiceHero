@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer  /> should match snapshot 1`] = `
+.c2 {
+  margin-right: 40px;
+}
+
+.c1 {
+  display: inline-block;
+  margin: 0px 5px;
+  color: grey;
+}
+
+.c0 {
+  padding: 0px;
+  padding-left: 60px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+  -webkit-justify-content: left;
+  -ms-flex-pack: left;
+  justify-content: left;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  color: grey;
+}
+
+<footer
+  class="ant-layout-footer c0"
+>
+  <a
+    class="c1"
+    href="/"
+  >
+    ServiceHero 
+  </a>
+  <span
+    class="c2"
+  >
+    © 2021
+  </span>
+</footer>
+`;

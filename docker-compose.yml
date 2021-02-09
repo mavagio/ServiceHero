@@ -1,0 +1,40 @@
+# docker compose is not complete please follow the instructions in README for running the code
+version: '3.7'
+services:
+  server:
+    container_name: server
+    build:
+      context: ./servicehero-api
+    ports:
+      - 8080:8080
+    command: npm run start:dev
+    env_file:
+      - ./servicehero-api/.env
+    networks:
+      - webnet
+    depends_on:
+      - mongo_db
+  client:
+    container_name: client
+    build:
+      context: ./servicehero-app
+    networks:
+      - webnet
+    ports:
+      - 3000:3000
+    command: npm run start
+  mongo_db:
+    image: mongo:latest
+    networks:
+      - webnet
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+networks:
+  webnet:
+volumes:
+  mongodb_data_container:
